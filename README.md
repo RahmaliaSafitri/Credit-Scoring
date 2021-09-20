@@ -20,6 +20,7 @@ Setelah call API sukses simpan API tadi ke collection dengan klik save dan isi k
 
 Selanjutnya, jika kita ingin, mempredict kita bisa menambahkan request baru dengan menggunakan method POST dan memasukkan request ulrnya dengan {{base_url}}/predict dengan contoh inputan seperti ini. Namun sebelumnya kita bisa memilih raw sebagai body nya terlebih dahulu
 
+
 {
     "person_age":27,
     "person_income":12000,
@@ -33,4 +34,3 @@ Selanjutnya, jika kita ingin, mempredict kita bisa menambahkan request baru deng
     "cb_person_default_on_file":"Y",
     "cb_person_cred_hist_length":1
 }
-                ![image](https://user-images.githubusercontent.com/58657110/133974656-24d26291-9d18-4776-b47b-584b0c149f8c.png)
