@@ -1,13 +1,14 @@
 # Credit-Scoring
 
-### Setting Environment And Collection
+**Setting Environment And Collection**
+
 Pastikan postman sudah terhubung dengan account google yang kita miliki karena setiap perubahan di collection, postman akan melakukan sync secara berkala.
 
 Manage envirotmen > Add Environment > variabel = base url & current value = http://127.0.0.1:5000/ > save
 
 setelah environtment telah ditambahkan sekarang kita buat collectionnya
 
-### Memanggil API dengan Environment
+**Memanggil API dengan Environment**
 selanjutnya di tab postman kita masukan alamat API yang akan kita panggil dengan menggunakan env <b>base_url</b> tadi.
 
 Contohnya kita ingin memanggil homepage, maka bisa kita lakukan dengan
@@ -17,8 +18,7 @@ Add request > Method kita pilih Get dan request urlnya kita bisa masukkan {{base
 Setelah call API sukses simpan API tadi ke collection dengan klik save dan isi keterangan API
 
 
-Selanjutnya, jika kita ingin, mempredict kita bisa memasukkan request ulrnya dengan {{base_url}}/predict
-dengan contoh inputan seperti ini. Namun sebelumnya kita bisa memilih raw sebagai body nya terlebih dahulu
+Selanjutnya, jika kita ingin, mempredict kita bisa menambahkan request baru dengan menggunakan method POST dan memasukkan request ulrnya dengan {{base_url}}/predict dengan contoh inputan seperti ini. Namun sebelumnya kita bisa memilih raw sebagai body nya terlebih dahulu
 
 {
     "person_age":27,
@@ -33,3 +33,4 @@ dengan contoh inputan seperti ini. Namun sebelumnya kita bisa memilih raw sebaga
     "cb_person_default_on_file":"Y",
     "cb_person_cred_hist_length":1
 }
+![image](https://user-images.githubusercontent.com/58657110/133974656-24d26291-9d18-4776-b47b-584b0c149f8c.png)
