@@ -33,4 +33,4 @@ Selanjutnya, jika kita ingin, mempredict kita bisa menambahkan request baru deng
     "cb_person_default_on_file":"Y",
     "cb_person_cred_hist_length":1
 }
-![image](https://user-images.githubusercontent.com/58657110/133974656-24d26291-9d18-4776-b47b-584b0c149f8c.png)
+                ![image](https://user-images.githubusercontent.com/58657110/133974656-24d26291-9d18-4776-b47b-584b0c149f8c.png)
