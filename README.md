@@ -1,6 +1,6 @@
 # Credit-Scoring
 
-**Setting Environment And Collection**
+#### Setting Environment And Collection
 
 Pastikan postman sudah terhubung dengan account google yang kita miliki karena setiap perubahan di collection, postman akan melakukan sync secara berkala.
 
@@ -8,7 +8,8 @@ Manage envirotmen > Add Environment > variabel = base url & current value = http
 
 setelah environtment telah ditambahkan sekarang kita buat collectionnya
 
-**Memanggil API dengan Environment**
+
+####Memanggil API dengan Environment
 selanjutnya di tab postman kita masukan alamat API yang akan kita panggil dengan menggunakan env <b>base_url</b> tadi.
 
 Contohnya kita ingin memanggil homepage, maka bisa kita lakukan dengan
